@@ -5,11 +5,14 @@
 ## 简介
 
 本项目是AFAC 2025赛题一：基金产品的长周期申购和赎回预测 Top2 解决方案。本方案通过构建两个独立的LightGBM模型（静态多目标模型与滚动单目标模型），结合大模型特征、时序特征工程及异常值处理策略，实现基金未来7天申购和赎回量的预测，并通过对两个模型的预测结果取平均得到最终输出。
+
 赛题链接🔗：https://tianchi.aliyun.com/competition/entrance/532352/information
 
 ## 项目结构
 AFAC2025_track1/
+
 ├── data/                          # 数据目录
+
 │   └── 20250724_update/           # 最新数据
 │       ├── fund_apply_redeem_series.csv
 ├── main.py                       # 主程序（14个LightGBM模型）
