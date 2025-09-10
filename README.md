@@ -9,11 +9,11 @@
 赛题链接🔗：https://tianchi.aliyun.com/competition/entrance/532352/information
 
 ## 项目结构
-AFAC2025_track1/
-├── README.md                      # 项目说明文件
-├── data/                          # 数据目录
-│   └── 20250724_update/           # 最新数据
-│       ├── fund_apply_redeem_series.csv
+AFAC2025_track1/  
+├── README.md                      # 项目说明文件  
+├── data/                          # 数据目录  
+│   └── 20250724_update/           # 最新数据  
+│       ├── fund_apply_redeem_series.csv    
 ├── main.py                        # 主程序（14个LightGBM模型）
 ├── main_roll.py                   # 主程序-滚动预测 （2个LightGBM模型）
 ├── integrate_result.py            # 结果融合
