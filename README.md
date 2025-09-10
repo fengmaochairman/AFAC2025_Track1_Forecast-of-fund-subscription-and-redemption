@@ -66,3 +66,4 @@ python main_roll.py
 ```bash
 python integrate_result.py
 ```# AFAC2025_Track1-Forecast-of-fund-subscription-and-redemption
+# AFAC2025_Track1-Forecast-of-fund-subscription-and-redemption
