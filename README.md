@@ -47,7 +47,7 @@ fetch服务链接🔗：https://www.modelscope.cn/mcp/servers/@modelcontextproto
         }
     }
 }
-``
+```
 4、Qwen模型配置
 api_key = "sk-xxxx"
 
