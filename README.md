@@ -50,8 +50,11 @@ fetch服务链接🔗：https://www.modelscope.cn/mcp/servers/@modelcontextproto
 }
 ```
 4、Qwen模型配置
+```
+# 替换为你的实际 API Key
+# 在 main.py、main_roll.py、mcp_fetch_client.py、tool_feature_client.py 中均需替换
 api_key = "sk-xxxx"
-
+```
 ## 使用方法
 1、启动基础特征处理服务
 ```bash

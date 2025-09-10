@@ -47,7 +47,7 @@ class MCPFetch:
         self.server_tools = {}  # 存储每个服务器的可用工具
         self.config_path = os.path.join(os.path.dirname(__file__), 'servers_config.json')
         self.client = OpenAI(
-            api_key="sk-b157d2837ecf4af484079352c80c7978", 
+            api_key="sk-xxxxxxxx",  # 替换为你的实际 API Key
             base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
         )
         # 移除了在 __init__ 中直接调用异步方法 connect_to_sse_server 的代码

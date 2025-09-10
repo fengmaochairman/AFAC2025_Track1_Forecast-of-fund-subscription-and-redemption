@@ -27,7 +27,7 @@ warnings.filterwarnings('ignore')
 def call_qwen_api(prompt, model_name="qwen3-32b", temperature=0.7):
     # 初始化通义千问 API 客户端
     client = OpenAI(
-        api_key="sk-b157d2837ecf4af484079352c80c7978", 
+        api_key="sk-xxxxxxxx", 
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     )
     """调用通义千问 API 生成文本"""
