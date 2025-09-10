@@ -10,18 +10,17 @@
 
 ## 项目结构
 AFAC2025_track1/
-
+├── README.md                      # 项目说明文件
 ├── data/                          # 数据目录
-
 │   └── 20250724_update/           # 最新数据
 │       ├── fund_apply_redeem_series.csv
-├── main.py                       # 主程序（14个LightGBM模型）
-├── main_roll.py                  # 主程序-滚动预测 （2个LightGBM模型）
-├── integrate_result.py           # 结果融合
-├── tool_feature_server.py        # 基础特征处理服务
-├── tool_feature_client.py        # 基础特征处理客户端
-├── mcp_fetch_client.py           # MCP数据抓取客户端
-└── servers_config.json           # MCP服务配置（fetch服务）
+├── main.py                        # 主程序（14个LightGBM模型）
+├── main_roll.py                   # 主程序-滚动预测 （2个LightGBM模型）
+├── integrate_result.py            # 结果融合
+├── tool_feature_server.py         # 基础特征处理服务
+├── tool_feature_client.py         # 基础特征处理客户端
+├── mcp_fetch_client.py            # MCP数据抓取客户端
+└── servers_config.json            # MCP服务配置（fetch服务）
 
 
 ## 配置说明
@@ -35,7 +34,8 @@ conda activate track1
 pip install -r requirements.txt
 ```
 3、MCP服务配置
-使用modelscope的fetch服务：https://www.modelscope.cn/mcp/servers/@modelcontextprotocol/fetch
+使用modelscope的fetch服务
+链接🔗：https://www.modelscope.cn/mcp/servers/@modelcontextprotocol/fetch
 复制fetch服务的url，替换server_config.json中的url
 
 ```json
@@ -69,5 +69,4 @@ python main_roll.py
 3、结果融合
 ```bash
 python integrate_result.py
-```# AFAC2025_Track1-Forecast-of-fund-subscription-and-redemption
-# AFAC2025_Track1-Forecast-of-fund-subscription-and-redemption
+```
