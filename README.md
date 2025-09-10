@@ -11,7 +11,7 @@
 ## 项目结构
 AFAC2025_track1/  
 │—— README.md                # 项目说明文件  
-├── data/                    # 数据目录  
+│── data/                    # 数据目录  
 │   └── 20250724_update/     # 最新数据  
 │       └── fund_apply_redeem_series.csv  
 ├── main.py                  # 主程序（14个LightGBM模型）  
