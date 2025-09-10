@@ -9,6 +9,7 @@
 赛题链接🔗：https://tianchi.aliyun.com/competition/entrance/532352/information
 
 ## 项目结构
+```
 AFAC2025_track1/  
 │── README.md                # 项目说明文件  
 │── data/                    # 数据目录  
@@ -21,6 +22,7 @@ AFAC2025_track1/
 │── tool_feature_client.py   # 基础特征处理客户端  
 │── mcp_fetch_client.py      # MCP数据抓取客户端  
 └── servers_config.json      # MCP服务配置（fetch服务）  
+```
 
 ## 配置说明
 1、创建新的 conda 环境：
