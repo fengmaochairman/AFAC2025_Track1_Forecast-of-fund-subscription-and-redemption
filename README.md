@@ -34,9 +34,9 @@ conda activate track1
 pip install -r requirements.txt
 ```
 3、MCP服务配置
-使用modelscope的fetch服务
-链接🔗：https://www.modelscope.cn/mcp/servers/@modelcontextprotocol/fetch
-复制fetch服务的url，替换server_config.json中的url
+使用modelscope的fetch服务，复制fetch服务的url，替换server_config.json中的url。
+
+fetch服务链接🔗：https://www.modelscope.cn/mcp/servers/@modelcontextprotocol/fetch
 
 ```json
 {
@@ -47,7 +47,7 @@ pip install -r requirements.txt
         }
     }
 }
-```
+``
 4、Qwen模型配置
 api_key = "sk-xxxx"
 
